@@ -18,7 +18,7 @@
 / {
 	model = "Qualcomm Technologies, Inc. MSM 8916 QRD WT86518";
 	compatible = "qcom,msm8916-qrd-wt86518", "qcom,msm8916-qrd", "qcom,msm8916", "qcom,qrd";
-	qcom,board-id = <0x1010b 7>;
+	qcom,board-id = <0x1010b 8>;
 };
 
 &soc {
@@ -35,6 +35,7 @@
 				"AMIC1", "MIC BIAS Internal1",
 				"AMIC2", "MIC BIAS Internal2",
 				"AMIC3", "MIC BIAS Internal1";
+
 
 	};
 };
